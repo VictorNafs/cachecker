@@ -42,12 +42,6 @@ Lors du développement ou en production, il peut arriver que le navigateur affic
 
 ## Contribuer
 
-Les contributions sont les bienvenues ! Pour contribuer à **Cachecker** :
-
-1. Forkez ce dépôt.
-2. Apportez vos modifications ou améliorations.
-3. Ouvrez une pull request avec une description claire de vos changements.
+Pour toute proposition, contactez-nous sur [cmoikvolelorange@gmail.com](mailto:cmoikvolelorange@gmail.com)
 
 ---
-
-N'hésitez pas à adapter ce document selon vos besoins et à ajouter des sections complémentaires si nécessaire.
