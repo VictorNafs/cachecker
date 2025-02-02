@@ -1,9 +1,9 @@
 # Notice
 
-**Cachecker** est fourni "tel quel", sans aucune garantie expresse ou implicite. L'utilisation de cette extension se fait aux risques et périls de l'utilisateur.
+**Cachecker** is provided "as is," without any express or implied warranty. The use of this extension is at the user's own risk.
 
-Les auteurs et contributeurs de **Cachecker** ne sauraient être tenus responsables des dommages directs ou indirects résultant de l'utilisation ou de l'incapacité d'utiliser ce logiciel.
+The authors and contributors of **Cachecker** shall not be held liable for any direct or indirect damages resulting from the use or inability to use this software.
 
-Avant d'utiliser cette extension en production ou dans un environnement critique, veuillez vérifier que celle-ci répond à vos exigences et effectuez des tests appropriés.
+Before using this extension in production or in a critical environment, please ensure that it meets your requirements and perform appropriate tests.
 
-En utilisant **Cachecker**, vous acceptez de dégager les auteurs de toute responsabilité relative à son utilisation.
+By using **Cachecker**, you agree to release the authors from any liability arising from its use.

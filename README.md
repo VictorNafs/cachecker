@@ -1,47 +1,49 @@
 # Cachecker
 
-**Cachecker** est une extension de navigateur conçue pour les développeurs. Elle permet de vérifier rapidement si la page affichée est bien à jour en affichant la durée écoulée depuis la dernière modification, d'après l'en-tête `Last-Modified` renvoyé par le serveur.
+**Cachecker** is a browser extension designed for developers. It quickly checks whether the displayed page is up-to-date by showing the time elapsed since its last modification, based on the `Last-Modified` header returned by the server.
 
-## À quoi sert Cachecker ?
+## What is Cachecker for?
 
-Lors du développement ou en production, il peut arriver que le navigateur affiche une version obsolète d'une page à cause du cache. **Cachecker** aide à identifier ce problème en affichant dans un popup le temps écoulé depuis la dernière modification de la page. Cela permet de :
-- Vérifier que vos modifications récentes sont bien prises en compte.
-- Diagnostiquer les problèmes liés à un cache persistant.
-- Gagner du temps en éliminant les doutes sur la version chargée.
+During development or in production, a browser may display an outdated version of a page due to caching. **Cachecker** helps identify this issue by displaying, in a popup, the time elapsed since the page was last modified. This allows you to:
+- Ensure that your recent changes are properly reflected.
+- Diagnose issues related to persistent caching.
+- Save time by eliminating doubts about which version is being displayed.
 
-## Fonctionnalités
+## Features
 
-- **Affichage du temps écoulé**  
-  Le popup indique la durée depuis la dernière modification de la page, basée sur l'en-tête `Last-Modified`.
+- **Real-Time Elapsed Time Display**  
+  The popup shows the time elapsed since the page's last modification, based on the `Last-Modified` header.
 
-- **Interface minimaliste**  
-  Une interface simple et intuitive pour une vérification rapide.
+- **Minimalist Interface**  
+  A simple and intuitive interface for quick verification.
 
-- **Assistance au débogage**  
-  Aide à repérer rapidement si la page affichée est obsolète à cause du cache.
+- **Debugging Assistance**  
+  Helps quickly detect if the displayed page is outdated due to caching.
 
 ## Installation
 
-### Pour Google Chrome
+### For Google Chrome
 
-1. Ouvrez Chrome et accédez à `chrome://extensions/`.
-2. Activez le **Mode développeur** (coin supérieur droit).
-3. Cliquez sur **Charger l'extension non empaquetée** et sélectionnez le dossier contenant les fichiers de l'extension.
+1. Open Chrome and navigate to `chrome://extensions/`.
+2. Enable **Developer Mode** (top-right corner).
+3. Click **Load unpacked** and select the folder containing the extension files.
 
-### Pour Mozilla Firefox
+### For Mozilla Firefox
 
-1. Ouvrez Firefox et rendez-vous sur `about:debugging#/runtime/this-firefox`.
-2. Cliquez sur **Charger un module complémentaire temporaire** et sélectionnez le fichier `manifest.json` de l'extension.
+1. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
+2. Click **Load Temporary Add-on** and select the `manifest.json` file of the extension.
 
-## Utilisation
+## Usage
 
-1. Rendez-vous sur la page web que vous développez ou que vous souhaitez vérifier.
-2. Cliquez sur l'icône **Cachecker** dans la barre d'outils du navigateur.
-3. Le popup affichera la durée écoulée depuis la dernière modification de la page (d'après l'en-tête `Last-Modified`).
-4. Si le temps affiché ne correspond pas à vos récentes modifications, cela peut indiquer que le cache empêche l'affichage de la version mise à jour. Pensez alors à vider le cache du navigateur.
+1. Navigate to the webpage you are developing or wish to check.
+2. Click the **Cachecker** icon in the browser toolbar.
+3. The popup will display the time elapsed since the last modification of the page (based on the `Last-Modified` header).
+4. If the displayed time does not match your recent changes, it may indicate that caching is preventing the updated version from being shown. In such a case, consider clearing your browser's cache.
 
-## Contribuer
+## Contributing
 
-Pour toute proposition, contactez-nous sur [cmoikvolelorange@gmail.com](mailto:cmoikvolelorange@gmail.com)
+For any suggestions, please contact us at [cmoikvolelorange@gmail.com](mailto:cmoikvolelorange@gmail.com).
 
 ---
+
+[Switch to French version](README_fr.md)
