@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /privacy.html
+
+Sitemap: https://cachecker.pages.dev/privacy/sitemap.xml

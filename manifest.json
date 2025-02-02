@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Durée depuis la dernière modification",
+    "version": "1.0",
+    "description": "Affiche la durée écoulée depuis la dernière modification de la page (via l’en-tête Last-Modified).",
+    "permissions": [
+      "tabs"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "cachecker_small.png",
+        "48": "cachecker_medium.png",
+        "128": "cachecker_big.png"
+      }
+    }
+  }
+  

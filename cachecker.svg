@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Fond : moitié gauche blanche, moitié droite rouge -->
+  <rect x="0" y="0" width="256" height="512" fill="white" />
+  <rect x="256" y="0" width="256" height="512" fill="#FF0000" />
+  
+  <!-- Cercle noir complet -->
+  <circle cx="235" cy="256" r="64" fill="black" />
+  
+  <!-- Recouvrement rouge pour "couper" environ 1/3 du cercle à droite -->
+  <rect x="256" y="0" width="256" height="512" fill="#FF0000" />
+  
+  <!-- Points noirs en deux colonnes verticales -->
+  <!-- Colonne de gauche (dans le blanc) -->
+  <circle cx="205" cy="216" r="8" fill="black" />
+  <circle cx="205" cy="236" r="8" fill="black" />
+  <circle cx="205" cy="256" r="8" fill="black" />
+  <circle cx="205" cy="276" r="8" fill="black" />
+  <circle cx="205" cy="296" r="8" fill="black" />
+  
+  <!-- Colonne de droite (dans le rouge) -->
+  <circle cx="265" cy="216" r="8" fill="black" />
+  <circle cx="265" cy="236" r="8" fill="black" />
+  <circle cx="265" cy="256" r="8" fill="black" />
+  <circle cx="265" cy="276" r="8" fill="black" />
+  <circle cx="265" cy="296" r="8" fill="black" />
+</svg>
